@@ -1,0 +1,34 @@
+.labels {
+  width: 100%;
+  display: flex;
+  position: relative;
+  cursor: pointer;
+
+  bottom: 0;
+  z-index: 9;
+  .tags {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+.plist {
+  overflow-y: scroll;
+  border-radius: 16px;
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 155px);
+}
+.pagenation {
+  padding: 10px;
+}
+.rootpimg {
+  width: 100%;
+  height: 10vh !important;
+}
+.productimg {
+  width: 100%;
+  height: 100% !important;
+  padding-bottom: 15px;
+  object-fit: contain;
+}

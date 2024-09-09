@@ -1,0 +1,57 @@
+.stautsbar {
+  background-color: #fff;
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #e3e1e1;
+  .content {
+    position: relative;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .logo {
+      cursor: pointer;
+      width: 30px;
+      margin-left: 16px;
+      margin-right: auto;
+      img {
+        object-fit: contain;
+      }
+    }
+    .search {
+      margin-right: auto;
+      width: 25%;
+    }
+    .shopsuerinfo {
+      display: flex;
+      position: absolute;
+      right: 30px;
+      justify-content: center;
+      align-items: center;
+      .userstate {
+        cursor: pointer;
+      }
+      .item {
+        margin-right: 10px;
+      }
+      .cart {
+        cursor: pointer;
+        font-size: 24px;
+        color: #979696;
+      }
+    }
+  }
+}
+.maincontent {
+  border-radius: 16px;
+  position: relative;
+  margin: 10px auto;
+  width: 1200px;
+  height: calc(100vh - 80px);
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
